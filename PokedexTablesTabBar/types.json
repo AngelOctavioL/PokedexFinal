@@ -1,0 +1,33 @@
+[
+    {
+        "type": "Fire",
+        "image": "fire_icon",
+        "doubleDamageDealt": ["Grass", "Ice", "Bug", "Steel"],
+        "doubleDamageReceived": ["Water", "Rock"],
+        "halfDamageDealt": ["Fire", "Water", "Rock", "Dragon"],
+        "halfDamageReceived": ["Grass", "Ice", "Bug", "Steel"],
+        "notAffectedBy": [],
+        "noEffectAgainst": []
+    },
+    {
+        "type": "Water",
+        "image": "water_icon",
+        "doubleDamageDealt": ["Fire", "Ground", "Rock"],
+        "doubleDamageReceived": ["Grass", "Electric"],
+        "halfDamageDealt": ["Water", "Grass", "Dragon"],
+        "halfDamageReceived": ["Fire", "Water", "Ice", "Steel"],
+        "notAffectedBy": [],
+        "noEffectAgainst": []
+    },
+    {
+        "type": "Grass",
+        "image": "grass_icon",
+        "doubleDamageDealt": ["Water", "Ground", "Rock"],
+        "doubleDamageReceived": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+        "halfDamageDealt": ["Fire", "Grass", "Poison", "Flying", "Bug", "Dragon", "Steel"],
+        "halfDamageReceived": ["Water", "Electric", "Grass", "Ground"],
+        "notAffectedBy": [],
+        "noEffectAgainst": []
+    }
+]
+

@@ -13,6 +13,13 @@
 		43F306382C0B06FE00CD8B91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 43F306372C0B06FE00CD8B91 /* Base */; };
 		43F3063A2C0B06FF00CD8B91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F306392C0B06FF00CD8B91 /* Assets.xcassets */; };
 		43F3063D2C0B06FF00CD8B91 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 43F3063C2C0B06FF00CD8B91 /* Base */; };
+		43F306452C0B08C600CD8B91 /* pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F306442C0B08C600CD8B91 /* pokemon.json */; };
+		43F306472C0B090900CD8B91 /* types.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F306462C0B090900CD8B91 /* types.json */; };
+		43F306492C0B0A8400CD8B91 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F306482C0B0A8400CD8B91 /* DataModel.swift */; };
+		43F3064D2C0B0C0D00CD8B91 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F3064C2C0B0C0D00CD8B91 /* DataLoader.swift */; };
+		43F306512C0B113900CD8B91 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F306502C0B113900CD8B91 /* PokemonListViewController.swift */; };
+		43F306532C0B188400CD8B91 /* PokemonCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */; };
+		43F306572C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		43F306392C0B06FF00CD8B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F3063C2C0B06FF00CD8B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43F3063E2C0B06FF00CD8B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F306442C0B08C600CD8B91 /* pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemon.json; sourceTree = "<group>"; };
+		43F306462C0B090900CD8B91 /* types.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = types.json; sourceTree = "<group>"; };
+		43F306482C0B0A8400CD8B91 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		43F3064C2C0B0C0D00CD8B91 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		43F306502C0B113900CD8B91 /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
+		43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCustomTableViewCell.xib; sourceTree = "<group>"; };
+		43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				43F306392C0B06FF00CD8B91 /* Assets.xcassets */,
 				43F3063B2C0B06FF00CD8B91 /* LaunchScreen.storyboard */,
 				43F3063E2C0B06FF00CD8B91 /* Info.plist */,
+				43F306442C0B08C600CD8B91 /* pokemon.json */,
+				43F306462C0B090900CD8B91 /* types.json */,
+				43F306482C0B0A8400CD8B91 /* DataModel.swift */,
+				43F3064C2C0B0C0D00CD8B91 /* DataLoader.swift */,
+				43F306502C0B113900CD8B91 /* PokemonListViewController.swift */,
+				43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */,
+				43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */,
 			);
 			path = PokedexTablesTabBar;
 			sourceTree = "<group>";
@@ -125,7 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F306532C0B188400CD8B91 /* PokemonCustomTableViewCell.xib in Resources */,
 				43F3063A2C0B06FF00CD8B91 /* Assets.xcassets in Resources */,
+				43F306472C0B090900CD8B91 /* types.json in Resources */,
+				43F306452C0B08C600CD8B91 /* pokemon.json in Resources */,
 				43F3063D2C0B06FF00CD8B91 /* Base in Resources */,
 				43F306382C0B06FE00CD8B91 /* Base in Resources */,
 			);
@@ -138,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F3064D2C0B0C0D00CD8B91 /* DataLoader.swift in Sources */,
 				43F306352C0B06FE00CD8B91 /* ViewController.swift in Sources */,
+				43F306492C0B0A8400CD8B91 /* DataModel.swift in Sources */,
 				43F306312C0B06FE00CD8B91 /* AppDelegate.swift in Sources */,
+				43F306512C0B113900CD8B91 /* PokemonListViewController.swift in Sources */,
 				43F306332C0B06FE00CD8B91 /* SceneDelegate.swift in Sources */,
+				43F306572C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +334,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AngelLopez.PokedexTablesTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,9 +365,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AngelLopez.PokedexTablesTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
