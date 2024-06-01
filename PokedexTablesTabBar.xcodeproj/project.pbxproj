@@ -20,6 +20,17 @@
 		43F306512C0B113900CD8B91 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F306502C0B113900CD8B91 /* PokemonListViewController.swift */; };
 		43F306532C0B188400CD8B91 /* PokemonCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */; };
 		43F306572C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */; };
+		55F027652C0B78A500418ECD /* TypeCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F027642C0B78A500418ECD /* TypeCustomTableViewCell.xib */; };
+		55F027672C0B799900418ECD /* TypeCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F027662C0B799900418ECD /* TypeCustomTableViewCell.swift */; };
+		55F027692C0B7AAC00418ECD /* TypeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F027682C0B7AAC00418ECD /* TypeListViewController.swift */; };
+		55F0276B2C0B7DD800418ECD /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0276A2C0B7DD800418ECD /* FavoritesManager.swift */; };
+		55F0276D2C0B836E00418ECD /* FavPokeCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F0276C2C0B836E00418ECD /* FavPokeCustomTableViewCell.xib */; };
+		55F0276F2C0B84A600418ECD /* FavPokeCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0276E2C0B84A600418ECD /* FavPokeCustomTableViewCell.swift */; };
+		55F027712C0B85DC00418ECD /* FavPokeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F027702C0B85DC00418ECD /* FavPokeListViewController.swift */; };
+		55F027742C0B998A00418ECD /* PokemonDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F027732C0B998A00418ECD /* PokemonDetailsViewController.xib */; };
+		55F027762C0B9A0400418ECD /* PokemonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F027752C0B9A0400418ECD /* PokemonDetailsViewController.swift */; };
+		55F027792C0BA47600418ECD /* TypeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F027782C0BA47600418ECD /* TypeDetailsViewController.xib */; };
+		55F0277B2C0BA4A300418ECD /* TypeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0277A2C0BA4A300418ECD /* TypeDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +49,17 @@
 		43F306502C0B113900CD8B91 /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCustomTableViewCell.xib; sourceTree = "<group>"; };
 		43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCustomTableViewCell.swift; sourceTree = "<group>"; };
+		55F027642C0B78A500418ECD /* TypeCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCustomTableViewCell.xib; sourceTree = "<group>"; };
+		55F027662C0B799900418ECD /* TypeCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCustomTableViewCell.swift; sourceTree = "<group>"; };
+		55F027682C0B7AAC00418ECD /* TypeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeListViewController.swift; sourceTree = "<group>"; };
+		55F0276A2C0B7DD800418ECD /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		55F0276C2C0B836E00418ECD /* FavPokeCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavPokeCustomTableViewCell.xib; sourceTree = "<group>"; };
+		55F0276E2C0B84A600418ECD /* FavPokeCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPokeCustomTableViewCell.swift; sourceTree = "<group>"; };
+		55F027702C0B85DC00418ECD /* FavPokeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPokeListViewController.swift; sourceTree = "<group>"; };
+		55F027732C0B998A00418ECD /* PokemonDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonDetailsViewController.xib; sourceTree = "<group>"; };
+		55F027752C0B9A0400418ECD /* PokemonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsViewController.swift; sourceTree = "<group>"; };
+		55F027782C0BA47600418ECD /* TypeDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeDetailsViewController.xib; sourceTree = "<group>"; };
+		55F0277A2C0BA4A300418ECD /* TypeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +92,8 @@
 		43F3062F2C0B06FE00CD8B91 /* PokedexTablesTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				55F027772C0BA43900418ECD /* TypeDetails */,
+				55F027722C0B993C00418ECD /* PokemonDetails */,
 				43F306302C0B06FE00CD8B91 /* AppDelegate.swift */,
 				43F306322C0B06FE00CD8B91 /* SceneDelegate.swift */,
 				43F306342C0B06FE00CD8B91 /* ViewController.swift */,
@@ -84,8 +108,33 @@
 				43F306502C0B113900CD8B91 /* PokemonListViewController.swift */,
 				43F306522C0B188400CD8B91 /* PokemonCustomTableViewCell.xib */,
 				43F306562C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift */,
+				55F027682C0B7AAC00418ECD /* TypeListViewController.swift */,
+				55F027642C0B78A500418ECD /* TypeCustomTableViewCell.xib */,
+				55F027662C0B799900418ECD /* TypeCustomTableViewCell.swift */,
+				55F027702C0B85DC00418ECD /* FavPokeListViewController.swift */,
+				55F0276C2C0B836E00418ECD /* FavPokeCustomTableViewCell.xib */,
+				55F0276E2C0B84A600418ECD /* FavPokeCustomTableViewCell.swift */,
+				55F0276A2C0B7DD800418ECD /* FavoritesManager.swift */,
 			);
 			path = PokedexTablesTabBar;
+			sourceTree = "<group>";
+		};
+		55F027722C0B993C00418ECD /* PokemonDetails */ = {
+			isa = PBXGroup;
+			children = (
+				55F027732C0B998A00418ECD /* PokemonDetailsViewController.xib */,
+				55F027752C0B9A0400418ECD /* PokemonDetailsViewController.swift */,
+			);
+			path = PokemonDetails;
+			sourceTree = "<group>";
+		};
+		55F027772C0BA43900418ECD /* TypeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				55F027782C0BA47600418ECD /* TypeDetailsViewController.xib */,
+				55F0277A2C0BA4A300418ECD /* TypeDetailsViewController.swift */,
+			);
+			path = TypeDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +195,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F027742C0B998A00418ECD /* PokemonDetailsViewController.xib in Resources */,
 				43F306532C0B188400CD8B91 /* PokemonCustomTableViewCell.xib in Resources */,
+				55F0276D2C0B836E00418ECD /* FavPokeCustomTableViewCell.xib in Resources */,
 				43F3063A2C0B06FF00CD8B91 /* Assets.xcassets in Resources */,
 				43F306472C0B090900CD8B91 /* types.json in Resources */,
 				43F306452C0B08C600CD8B91 /* pokemon.json in Resources */,
+				55F027652C0B78A500418ECD /* TypeCustomTableViewCell.xib in Resources */,
+				55F027792C0BA47600418ECD /* TypeDetailsViewController.xib in Resources */,
 				43F3063D2C0B06FF00CD8B91 /* Base in Resources */,
 				43F306382C0B06FE00CD8B91 /* Base in Resources */,
 			);
@@ -162,12 +215,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F027672C0B799900418ECD /* TypeCustomTableViewCell.swift in Sources */,
+				55F027712C0B85DC00418ECD /* FavPokeListViewController.swift in Sources */,
+				55F0276B2C0B7DD800418ECD /* FavoritesManager.swift in Sources */,
+				55F027762C0B9A0400418ECD /* PokemonDetailsViewController.swift in Sources */,
 				43F3064D2C0B0C0D00CD8B91 /* DataLoader.swift in Sources */,
 				43F306352C0B06FE00CD8B91 /* ViewController.swift in Sources */,
 				43F306492C0B0A8400CD8B91 /* DataModel.swift in Sources */,
+				55F027692C0B7AAC00418ECD /* TypeListViewController.swift in Sources */,
 				43F306312C0B06FE00CD8B91 /* AppDelegate.swift in Sources */,
 				43F306512C0B113900CD8B91 /* PokemonListViewController.swift in Sources */,
 				43F306332C0B06FE00CD8B91 /* SceneDelegate.swift in Sources */,
+				55F0277B2C0BA4A300418ECD /* TypeDetailsViewController.swift in Sources */,
+				55F0276F2C0B84A600418ECD /* FavPokeCustomTableViewCell.swift in Sources */,
 				43F306572C0B1B7500CD8B91 /* PokemonCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +387,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +419,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

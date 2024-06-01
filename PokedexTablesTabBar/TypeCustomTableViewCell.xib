@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="typeCell" id="G9r-zc-VWZ" customClass="TypeCustomTableViewCell" customModule="PokedexTablesTabBar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G9r-zc-VWZ" id="MwC-Bj-ZHC">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JLA-i8-hgP">
+                        <rect key="frame" x="0.0" y="0.0" width="40" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="AFJ-z8-ddb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1x-1M-5KW">
+                        <rect key="frame" x="273" y="12" width="120" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="JLA-i8-hgP" secondAttribute="bottom" id="2DA-zs-EKa"/>
+                    <constraint firstItem="JLA-i8-hgP" firstAttribute="leading" secondItem="MwC-Bj-ZHC" secondAttribute="leading" id="Pfe-cB-ARN"/>
+                    <constraint firstItem="JLA-i8-hgP" firstAttribute="top" secondItem="MwC-Bj-ZHC" secondAttribute="top" id="g7x-3C-ZTr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellTypeImagen" destination="JLA-i8-hgP" id="yZM-7U-aQM"/>
+                <outlet property="cellTypeNameLabel" destination="n1x-1M-5KW" id="43i-bT-WWN"/>
+            </connections>
+            <point key="canvasLocation" x="203.81679389312976" y="-13.380281690140846"/>
+        </tableViewCell>
+    </objects>
+</document>

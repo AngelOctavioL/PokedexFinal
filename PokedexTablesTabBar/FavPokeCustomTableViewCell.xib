@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favPokemonCell" id="v1K-4I-8oU" customClass="FavPokeCustomTableViewCell" customModule="PokedexTablesTabBar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="v1K-4I-8oU" id="NKP-q5-aiv">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI1-cP-zl0">
+                        <rect key="frame" x="227" y="0.0" width="166" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="166" id="687-s0-QMb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abh-Nf-ThK">
+                        <rect key="frame" x="59" y="0.0" width="41.333333333333329" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FI1-cP-zl0" secondAttribute="trailing" id="4U5-Uy-0Eg"/>
+                    <constraint firstAttribute="bottom" secondItem="FI1-cP-zl0" secondAttribute="bottom" id="85C-8O-JpY"/>
+                    <constraint firstItem="FI1-cP-zl0" firstAttribute="firstBaseline" secondItem="abh-Nf-ThK" secondAttribute="firstBaseline" id="CiC-4c-tfU"/>
+                    <constraint firstItem="FI1-cP-zl0" firstAttribute="baseline" secondItem="abh-Nf-ThK" secondAttribute="baseline" id="Sk2-p8-Uib"/>
+                    <constraint firstItem="FI1-cP-zl0" firstAttribute="leading" secondItem="abh-Nf-ThK" secondAttribute="trailing" constant="126.66666666666667" id="k9K-xR-68s"/>
+                    <constraint firstItem="FI1-cP-zl0" firstAttribute="top" secondItem="NKP-q5-aiv" secondAttribute="top" id="zaf-2d-aPU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="favCellPokemonNameLabel" destination="FI1-cP-zl0" id="Fo3-cS-fxa"/>
+                <outlet property="favCellPokemonNumberLabel" destination="abh-Nf-ThK" id="vnR-03-AHH"/>
+            </connections>
+            <point key="canvasLocation" x="188.54961832061068" y="46.478873239436624"/>
+        </tableViewCell>
+    </objects>
+</document>

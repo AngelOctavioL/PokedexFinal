@@ -1,16 +1,16 @@
 //
-//  PokemonCustomTableViewCell.swift
+//  FavPokeCustomTableViewCell.swift
 //  PokedexTablesTabBar
 //
-//  Created by Angel Octavio Lopez Cruz on 01/06/24.
+//  Created by Diplomado on 01/06/24.
 //
 
 import UIKit
 
-class PokemonCustomTableViewCell: UITableViewCell {
-    @IBOutlet weak var cellPokemonNumberLabel: UILabel!
-    @IBOutlet weak var cellPokemonNameLabel: UILabel!
-
+class FavPokeCustomTableViewCell: UITableViewCell {
+    @IBOutlet weak var favCellPokemonNumberLabel: UILabel!
+    @IBOutlet weak var favCellPokemonNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
